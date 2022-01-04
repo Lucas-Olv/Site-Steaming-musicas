@@ -1,0 +1,361 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+
+.body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: black;
+	font-family: "Times New Roman", Helvetica, Sans-serif;
+}
+
+.nav 
+{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+	background-color: #111111;
+	font-family: 'Raleway', Arial, Helvetica, Sans-serif;
+
+}
+
+.infoarea
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.infoanchor
+{
+	padding: 15px 10px;
+	width: 110px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.infoanchor:hover
+{
+	background-color: gray;
+}
+
+.userarea
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.useranchor
+{
+	padding: 15px 20px;
+	width: 100px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.useranchor:hover
+{
+	background-color: cyan;
+	color: black;
+}
+
+
+.header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: linear-gradient(to right, cyan, magenta);
+	font-family: 'Roboto Mono', monospace;
+}
+
+.headersection
+{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin: 50px 0;
+	padding: 50px 0;
+}
+
+.main
+{
+	font-family: 'KoHo', sans-serif;
+}
+
+.mainsectionsobre
+{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	justify-content: center;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.section1header
+{
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 48px;
+	padding: 70px 0 ;
+}
+
+.section1p1
+{
+	text-align: left;
+}
+
+.section1p2
+{
+	grid-column: 1 / 1;
+	text-align: left;
+}
+
+.section1p3
+{
+	grid-column: 1 / 1;
+	text-align: left;
+}
+
+
+.sobre-disponibilidade
+{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	justify-content: center;
+	color: white;
+	background-color: #0D0D0D;
+	padding-bottom: 100px;
+}
+
+.header-disponibilidade
+{
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 48px;
+	padding: 70px 0;
+}
+
+.disponibilidadep1
+{
+	text-align: left;
+}
+
+.sobre-funcoes
+{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	justify-content: center;
+	color: white;
+	padding-bottom: 100px;
+}
+
+.header-funcoes
+{
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 48px;
+	padding: 70px 0;
+}
+
+.funcoes-p1
+{
+	text-align: left;
+}
+
+.funcoes-p2
+{
+	grid-column: 1 / 1;
+	text-align: left;
+}
+
+.mainsectionplanos
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0px;
+	background-color: #2B2B2B;
+}
+
+.planoprata
+{	
+	display: grid;
+	grid-template-rows: 120px 150px 120px;
+	grid-row-gap: 10px;
+	align-content: center;
+	border: 2px solid white;
+	background-color: white;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+.planoprata h5
+{
+	font-size: 32px;
+	text-align: center; 
+}
+
+.planoprata ul
+{
+}
+
+.planoprata li
+{
+	padding: 5px;
+}
+
+.planoprata button
+{
+	text-align: center;
+	color: white;
+	border: none;
+	background-color: gray;
+	border-radius: 0 0 15px 15px;
+}
+
+.planoprata:hover
+{
+	box-shadow: 10px 20px 20px black;
+}
+
+.planoprata button:hover
+{
+	background-color: silver;
+	color: black;
+}
+
+.planoouro
+{	
+	display: grid;
+	grid-template-rows: 120px 150px 120px;
+	grid-row-gap: 10px;
+	align-content: center;
+	border: 2px solid white;
+	background-color: white;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+.planoouro h5
+{
+	font-size: 32px;
+	text-align: center;
+}
+
+.planoouro ul
+{
+}
+
+.planoouro li
+{
+	padding: 5px;
+}
+
+.planoouro button
+{
+	text-align: center;
+	color: white;
+	border: none;
+	background-color: gray;
+	border-radius: 0 0 15PX 15PX;
+}
+
+.planoouro:hover
+{
+	box-shadow: 10px 20px 20px black;
+}
+
+.planoouro button:hover
+{
+	background-color: gold;
+	color: black;
+}
+
+.planodiamante
+{	
+	display: grid;
+	grid-template-rows: 120px 150px 120px;
+	grid-row-gap: 10px;
+	align-content: center;
+	border: 2px solid white;
+	background-color: white;
+	margin: 15px;
+	border-radius: 15px;
+}
+
+.planodiamante h5
+{
+	font-size: 32px;
+	text-align: center;
+}
+
+.planodiamante ul
+{
+}
+
+.planodiamante li
+{
+	padding: 5px;
+}
+
+.planodiamante button
+{
+	text-align: center;
+	color: white;
+	border: none;
+	background-color: gray;
+	border-radius: 0 0 15px 15px;
+}
+
+.planodiamante:hover
+{ 
+	box-shadow: 10px 20px 20px black;
+}
+
+.planodiamante button:hover
+{
+	background-color: cyan;
+	color: black;
+}
+
+.footer
+{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-template-rows: auto auto;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	background-color: #111111;
+	color: white;
+	font-family: 'KoHo', sans-serif;
+}
+
+.contato
+{
+
+}
+
+.copyright
+{
+	grid-column: 2 / 2;
+	grid-row: 2 / 2;
+	text-align: center;
+}
